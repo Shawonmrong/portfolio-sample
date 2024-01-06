@@ -9,12 +9,11 @@ body {
 .btn-primary {
   border-radius: 5px;
   background: #fd6e0a;
-  border: 0;
-  color:  #FFF;
-font-size: 20px;
-font-weight: 400;
-padding: 15px 30px;
-
+  border: 0px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 30px;
 }
 
 /* nav related style */
@@ -23,7 +22,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 200px;
+  margin: 0px 200px;
 }
 .nav-title {
   color: #181818;
@@ -49,19 +48,44 @@ nav a {
 
 /* header related style */
 
-.header{
-    background-color: #FFF8F3;
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 800px;
+  
 }
 
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.pro-pic{
-    width: 500px;
-}
-.banner-content{
-    
+.banner-greetings {
+  font-size: 45px;
+  color: #474747;
+  margin: 0px;
 }
 
+.banner-title {
+  font-size: 65px;
+  color: #181818;
+  margin-top: 5px;
+}
+.banner-info {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+.pro-pic {
+  width: 600px;
+  height: 618px;
+  margin-bottom: 0px;
+ 
+}
+.banner-content {
+    max-width: 500px;
+}
